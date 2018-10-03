@@ -1,0 +1,46 @@
+h2 {
+    padding-top: 2cm;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+	margin: 0;
+	padding-left: 0%;
+	padding-right: 0%;
+	font-family: "Trebuchet MS";
+}
+
+.leftsidebar {
+	position: fixed;
+	left:0;
+	height:100%;
+	width:18%;
+	background-color:#555588;
+}
+
+.leftshadow {
+	position: fixed;
+	left:18%;
+	height:100%;
+	width: 2%;
+	background: linear-gradient(to left, #444444, #555588);
+}
+
+.rightsidebar {
+	position:fixed;
+	right:0;
+	height:100%;
+	width:18%;
+	background-color:#555588;
+}
+
+.rightshadow {
+	position:fixed;
+	right:18%;
+	height:100%;
+	width:2%;
+	background: linear-gradient(to left, #555588, #444444);
+}
