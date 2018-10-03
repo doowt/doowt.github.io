@@ -76,7 +76,8 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-height:450px){
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
     .rightsidebar {width:0;}
     .rightshadow {width:0;}
     .leftsidebar {width:0;}
