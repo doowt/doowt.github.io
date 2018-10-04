@@ -9,36 +9,37 @@ body {
 	font-family: "Trebuchet MS";
 }
 
-.sidenav {
-    top:100px;
-    width: 16%;
-    position: fixed;
-    z-index: 1;
-    left: 2%;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
+.topnav {
+  overflow: hidden;
+  background-color: #cccccc;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #2196F3;
-    display: block;
+.topnav a {
+  float: left;
+  color: #5555aa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.sidenav a:hover {
-    color: #064579;
+.topnav a:hover {
+  background-color: #5555aa;
+  color: white;
 }
 
-.main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+.topnav a.active {
+  background-color: #000000;
+  color: white;
 }
+
+.side-padding {
+    padding-left:22%;
+    padding-right:25%;
+    padding-top:5px;
+}
+		  
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .side-padding {padding-left: 0px; padding-right:0px;}
 }
