@@ -9,39 +9,6 @@ body {
 	font-family: "Trebuchet MS";
 }
 
-.leftsidebar {
-	position: fixed;
-	left:0;
-	height:100%;
-	width:18%;
-	background-color:#555588;
-}
-
-.leftshadow {
-	position: fixed;
-	left:18%;
-	height:100%;
-	width: 2%;
-	background: linear-gradient(to left, #444444, #555588);
-}
-
-.rightsidebar {
-	position:fixed;
-	right:0;
-	height:100%;
-	width:18%;
-	background-color:#555588;
-}
-
-.rightshadow {
-	position:fixed;
-	right:18%;
-	height:100%;
-	width:2%;
-	background: linear-gradient(to left, #555588, #444444);
-}
-
-
 .sidenav {
     top:100px;
     width: 16%;
@@ -74,12 +41,4 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-}
-
-
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-    .rightsidebar {width:0;}
-    .rightshadow {width:0;}
-    .leftsidebar {width:0;}
-    .leftshadow {width:0;}
 }
