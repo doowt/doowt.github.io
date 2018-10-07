@@ -6,11 +6,16 @@ li {
     margin:10px 0;
 }
 
+div card {
+    text-align: center;
+}
+
 body {
-	margin: 0;
-	padding-left: 0%;
-	padding-right: 0%;
-	font-family: "Trebuchet MS";
+    background-color:aaaaff;
+    margin: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-family: "Trebuchet MS";
 }
 
 .topnav {
@@ -38,12 +43,24 @@ body {
 }
 
 .side-padding {
-    padding-left:22%;
-    padding-right:25%;
-    padding-top:5px;
+    background-color:#ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left:20px;
+    padding-right:20px;
 }
-		  
+
+.footer-padding {
+    height:50px;
+}
+
+.aligning {
+    background-color:#aaaaff;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
 
 @media screen and (max-height: 450px) {
-    .side-padding {padding-left: 0px; padding-right:0px;}
+    .aligning {padding-left: 0px; padding-right:0px;}
 }
