@@ -62,5 +62,5 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    .aligning {padding-left: 0px; padding-right:0px;}
+    .aligning {padding-left: 0px; padding-right:0px; font-size:x-large}
 }
