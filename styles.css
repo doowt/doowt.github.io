@@ -1,3 +1,13 @@
+h1 {
+    padding-top:40px;
+    padding-bottom:30px;
+}
+
+h4 {
+    font-style:italic;
+    font-weight:normal;
+}
+
 ul {
     list-style: none;
 }
@@ -15,7 +25,7 @@ body {
     margin: 0;
     padding-left: 0%;
     padding-right: 0%;
-    font-family: "Trebuchet MS";
+    font-family: Arial
 }
 
 .topnav {
@@ -50,25 +60,18 @@ body {
 }
 
 .footer-padding {
-    height:50px;
+    height:40px;
 }
 
 .aligning {
     background-color:#6565cc;
     padding-left:20%;
     padding-right:20%;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-h1 {
-    padding-top:40px;
+    padding-top:0px;
     padding-bottom:20px;
 }
 
 @media screen and (max-width: 1000px) {
-/*    .title-style {font-size:60px}*/
     .aligning {padding-left: 0px; padding-right:0px; font-size:36px;}
     .topnav a {font-size:36px;}
-    
 }
