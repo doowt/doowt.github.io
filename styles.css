@@ -21,7 +21,7 @@ div card {
 }
 
 body {
-    background-color:6565cc;
+    background-color:670a0a;
     margin: 0;
     padding-left: 0%;
     padding-right: 0%;
@@ -43,7 +43,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #6565cc;
+  background-color: #670a0a;
   color: white;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .aligning {
-    background-color:#6565cc;
+    background-color:#670a0a;
     padding-left:20%;
     padding-right:20%;
     padding-top:0px;
